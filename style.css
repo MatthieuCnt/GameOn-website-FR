@@ -1,0 +1,42 @@
+/* Landing Page */
+.topnav {
+    overflow: hidden;
+    margin: 3.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    width: 10rem;
+    padding: 1rem;
+}
+
+.main-navbar {
+    padding: 1.4rem 0 1.4rem;
+}
+
+.hero-content {
+    padding: inherit;
+    min-width: 100%;
+}
+
+.hero-headline {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.hero-text {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.hero-section {
+    min-height: 0;
+}
+
+.copyrights {
+    font-size: 0.8rem;
+    margin: 0;
+}
