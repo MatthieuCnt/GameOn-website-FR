@@ -53,19 +53,20 @@ img {
 }
 
 .topnav a:hover {
-	background-color: #ff0000;
-	color: #ffffff;
 	border-radius: 15px;
+	background-color: red;
+	color: #ffffff;
 }
 
 .topnav a.active {
-	background-color: #ff0000;
-	color: #ffffff;
 	border-radius: 15px;
+	background-color: red;
+	color: white;
 }
 
 .topnav .icon {
 	display: none;
+	color: red;
 }
 
 @media screen and (max-width: 768px) {
@@ -75,6 +76,7 @@ img {
 	.topnav a.icon {
 		float: right;
 		display: block;
+		font-size: 1.3rem;
 	}
 }
 
@@ -101,7 +103,6 @@ img {
 	.topnav a.icon {
 		float: right;
 		display: block;
-		margin-top: -15px;
 	}
 }
 
@@ -180,7 +181,6 @@ main {
 	height: 100%;
 	width: 100%;
 	overflow: auto;
-	background-color: rgba(26, 39, 156, 0.4);
 }
 
 .bgroundThanks {
@@ -196,7 +196,7 @@ main {
 }
 
 .content {
-	margin: 5% auto;
+	margin: 20% auto;
 	width: 100%;
 	max-width: 500px;
 	animation-name: modalopen;
