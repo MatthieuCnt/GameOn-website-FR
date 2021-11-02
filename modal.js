@@ -64,7 +64,7 @@ const mailError = document.getElementById('email-error'),
 //mail.addEventListener('change', event => {
 const mailValidation = () => {
 	if (!mail.value.match(/^[a-z0-9._-]{2,}@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
-		mailError.innerHTML = 'veuillez entrer une adresse mail valide';
+		mailError.innerHTML = 'Veuillez entrer une adresse mail valide';
 		mail.style.border = 'solid red 2px';
 	} else {
 		mailError.innerHTML = '';
@@ -105,7 +105,7 @@ const quantityError = document.getElementById('quantity-error'),
 
 const quantityValidation = () => {
 	if (!quantity.value.match(/^[0-9]+$/)) {
-		quantityError.innerHTML = "Le format n'est pas respecté";
+		quantityError.innerHTML = 'Ce champs est requis';
 		quantity.style.border = 'solid red 2px';
 	} else {
 		quantityError.innerHTML = '';
@@ -138,8 +138,7 @@ quantity.addEventListener('change', event => {
 const checkValidation = () => {
 	const check1 = document.getElementById('checkbox1');
 	if (!check1.checked) {
-		check1Error.innerHTML =
-			'Vous devez vérifier que vous acceptez les termes et conditions.';
+		check1Error.innerHTML = 'Vous devez accepter les termes et conditions.';
 	} else {
 		check1Error.innerHTML = '';
 	}
